@@ -32,7 +32,17 @@ if(NOT gsl_POPULATED)
     FetchContent_Populate(gsl)
     add_subdirectory(${gsl_SOURCE_DIR} ${gsl_BINARY_DIR})
 endif()
-
+FetchContent_Declare(
+    glm
+    GIT_REPOSITORY https://github.com/g-truc/glm.git
+    GIT_TAG master
+)
+FetchContent_GetProperties(glm)
+if(NOT glm_POPULATED)
+    FetchContent_Populate(glm)
+    add_library(glm INTERFACE)
+    target_include_directories(glm INTERFACE ${glm_SOURCE_DIR})
+endif()
 FetchContent_Declare(
     json
     GIT_REPOSITORY https://github.com/nlohmann/json.git
@@ -169,17 +179,16 @@ endif()
 #include_directories(${CMAKE_BINARY_DIR}/MelodyV2Shaders)
 
 # Add MelodyV2 target AFTER shaders
-add_library(MelodyV2 SHARED)
-#add_dependencies(MelodyV2 MelodyV2Shaders)
+add_library(MelodyV2 SHARED)  # Or whatever type of target MelodyV2 is supposed to be
 
 # Add PCH
 target_precompile_headers(MelodyV2 PUBLIC
-    #EnTT headers
+    # EnTT headers
     <entt/core/type_info.hpp>
 
-    #PolyHook2 headers
+    # PolyHook2 headers
 
-    #Standard Library headers
+    # Standard Library headers
     <algorithm>
     <any>
     <cassert>
@@ -197,11 +206,13 @@ target_precompile_headers(MelodyV2 PUBLIC
 target_link_options(MelodyV2 PRIVATE $<$<CONFIG:Debug>:/INCREMENTAL>)
 target_compile_options(MelodyV2 PRIVATE $<$<CONFIG:Debug>:/ZI>)
 
+# Add your sources
 target_sources(MelodyV2 PRIVATE 
-	"dllmain.cpp"
-)
+    "dllmain.cpp"
+ )
 
-target_link_libraries(MelodyV2 PUBLIC Shared Kiero GSL PolyHook_2 minhook nlohmann_json EnTT GLM version magic_enum DirectXTK libhat)
+# Add your dependencies
+target_link_libraries(MelodyV2 PRIVATE Shared Kiero GSL PolyHook_2 glm minhook nlohmann_json EnTT glm version magic_enum DirectXTK libhat)
 
 #string(REPLACE "/O2" "/Od" CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE}")
 #string(REPLACE "/O2" "/Od" CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS_RELEASE}")

@@ -1,4 +1,6 @@
 #include "GameMode.h"
+
+#include "BlockSource.h"
 #include "Player.h"
 #include "Actor.h"
 #include "ActorUniqueID.h"
@@ -7,7 +9,6 @@
 
 #include "BlockLegacy.h"
 
-#include "BlockSource.h"
 
 #include "CaretMeasureData.h"
 
@@ -73,7 +74,6 @@
 #include "UIProfanityContext.h"
 #include "VisualTree.h"
 #include "WeakPtr.h"
-
 
 bool GameMode::tryPlaceBlock(const Vec3<int>& blockPos)
 {

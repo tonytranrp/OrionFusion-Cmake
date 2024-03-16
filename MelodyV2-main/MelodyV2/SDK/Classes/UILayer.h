@@ -107,12 +107,12 @@ namespace UILayer
 		Store_InventoryScreen
 	};
 
-	bool Is(ScreenView* screen, std::string screenType)
+	inline bool Is(ScreenView* screen, std::string screenType)
 	{
 		return screen->visualTree->root->GetName() == screenType;
 	}
 
-	bool Is(ScreenView* screen, std::vector<std::string> screenTypes)
+	inline bool Is(ScreenView* screen, std::vector<std::string> screenTypes)
 	{
 		std::string currentScreenType = screen->visualTree->root->GetName();
 
@@ -127,12 +127,12 @@ namespace UILayer
 		return false;
 	}
 
-	bool IsNot(ScreenView* screen, std::string screenType)
+	inline bool IsNot(ScreenView* screen, std::string screenType)
 	{
 		return screen->visualTree->root->GetName() != screenType;
 	}
 
-	bool IsNot(ScreenView* screen, std::vector<std::string> screenTypes)
+	inline bool IsNot(ScreenView* screen, std::vector<std::string> screenTypes)
 	{
 		std::string currentScreenType = screen->visualTree->root->GetName();
 

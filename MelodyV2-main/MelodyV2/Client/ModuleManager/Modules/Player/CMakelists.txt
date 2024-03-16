@@ -8,5 +8,6 @@ target_sources(MelodyV2 PRIVATE
 	"PacketMine.cpp"
 	"Surround.cpp"
 	"Swing.cpp"
+	"Scaffold.cpp"
 
 )

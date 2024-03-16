@@ -103,8 +103,8 @@ void PacketMine::onRender(MinecraftUIRenderContext* ctx) {
 	UIColor fillColor(255 - int(destroyProgress * 255.f), int(destroyProgress * 255.f), 0, 40);
 	UIColor lineColor(255 - int(destroyProgress * 255.f), int(destroyProgress * 255.f), 0, 225);
 	if (destroyProgress > 0.f) {
-		AABB aabb = localPlayer->makeAABB(&breakPos);
-		RenderUtils::drawBox(aabb, fillColor, lineColor, 0.3f, true, false);
+		//AABB aabb = localPlayer->makeAABB(&breakPos);
+		//RenderUtils::drawBox(aabb, fillColor, lineColor, 0.3f, true, false);
 	}
 }
 

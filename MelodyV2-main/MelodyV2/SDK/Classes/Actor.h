@@ -55,7 +55,7 @@ protected:
 	}
 public:
 
-	AABB makeAABB(const Vec3<int>* pos) {
+	/*AABB makeAABB(const Vec3<int>* pos) {
 		AABB aabb;
 		BlockSource* blockSource = this->dimension->blockSource;
 		Block* block = blockSource->getBlock(*pos);
@@ -63,7 +63,7 @@ public:
 
 		blockLegacy->getCollisionShape(&aabb, block, blockSource, pos);
 		return aabb;
-	}
+	}*/
 
 	SimpleContainer* getArmorContainer() {
 		return (SimpleContainer*)*((uintptr_t*)this + 0x8A);

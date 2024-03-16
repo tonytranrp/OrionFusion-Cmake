@@ -7,12 +7,18 @@ Disabler::Disabler() : Module("Disabler", "Disable the anticheat", Category::MIS
     addEnumSetting("Server", "What server do you want this to works on", { "Lifeboat", "CubeCraft" }, &Mode);
 }
 float lerp(float endPoint, float current, float speed) {
-    if (speed < 0.0) speed = 0.0;
-    else if (speed > 1.0) speed = 1.0;
+    if (speed < 0.0f)
+        speed = 0.0f;
+    else if (speed > 1.0f)
+        speed = 1.0f;
 
-    float dif = std::max(endPoint, current) - std::min(endPoint, current);
+    float minVal = (endPoint < current) ? endPoint : current;
+    float maxVal = (endPoint > current) ? endPoint : current;
+
+    float dif = maxVal - minVal;
     float factor = dif * speed;
-    return current + (endPoint > current ? factor : -factor);
+
+    return current + ((endPoint > current) ? factor : -factor);
 }
 static __int64 ms;
 static __int64 prevMS = 0;

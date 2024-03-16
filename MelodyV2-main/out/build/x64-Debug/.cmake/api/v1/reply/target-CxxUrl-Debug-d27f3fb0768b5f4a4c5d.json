@@ -1,0 +1,208 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "Shared/CxxUrl.lib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_compile_options",
+			"add_compile_definitions",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"Shared/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 40,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 36,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 35,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 6,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++latest -MDd"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "/Zi"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "API_HOST=\"orionfusion.net\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "AUTH_DISABLED=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "DEBUG_WEB=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "ENTT_PACKED_PAGE=128"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "ENTT_SPARSE_PAGE=2048"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "INJECTOR_BUILD_TAG=0.2"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "MelodyV2_AUTHORS=\"Tony\""
+				},
+				{
+					"backtrace" : 9,
+					"define" : "MelodyV2_BUILD_TAG=0.9.2"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "MelodyV2_BUILD_VERSION=9af4f6c"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "_ITERATOR_DEBUG_LEVEL=0"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "23"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "CxxUrl::@a5a0faf7a4ef51a63049",
+	"name" : "CxxUrl",
+	"nameOnDisk" : "CxxUrl.lib",
+	"paths" : 
+	{
+		"build" : "Shared",
+		"source" : "Shared"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/cxxurl-src/url.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

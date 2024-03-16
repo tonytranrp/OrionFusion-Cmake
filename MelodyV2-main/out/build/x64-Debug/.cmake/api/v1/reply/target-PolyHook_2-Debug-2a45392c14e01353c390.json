@@ -1,0 +1,557 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "_deps/plh-build/PolyHook_2.lib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"link_asmjit",
+			"add_compile_options",
+			"add_compile_definitions",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"out/build/x64-Debug/_deps/plh-src/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 134,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 389,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 220,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 251,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 243,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 236,
+				"parent" : 5
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 40,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 36,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 35,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 6,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 162,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 222,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 223,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 190,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 226,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 263,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 287,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 307,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 328,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 348,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd"
+				},
+				{
+					"fragment" : "/MP /W4 /Z7"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "/Zi"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "/wd4201"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-DASMJIT_STATIC"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-DASMTK_STATIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 9,
+					"define" : "API_HOST=\"orionfusion.net\""
+				},
+				{
+					"backtrace" : 10,
+					"define" : "AUTH_DISABLED=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "DEBUG_WEB=1"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "ENTT_PACKED_PAGE=128"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "ENTT_SPARSE_PAGE=2048"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "INJECTOR_BUILD_TAG=0.2"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "MelodyV2_AUTHORS=\"Tony\""
+				},
+				{
+					"backtrace" : 14,
+					"define" : "MelodyV2_BUILD_TAG=0.9.2"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "MelodyV2_BUILD_VERSION=9af4f6c"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "ZYCORE_STATIC_BUILD"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "ZYDIS_STATIC_BUILD"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "_ITERATOR_DEBUG_LEVEL=0"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/plh-src"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/plh-src/zydis/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/plh-src/zydis/dependencies/zycore/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/plh-build/zydis"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/plh-build/zydis/dependencies/zycore"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/plh-src/asmjit/src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/plh-src/asmtk/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					6
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "Zydis::@c2590957b6c71a2675da"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "asmtk::@64cfaecabb7fc13a21cc"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "asmjit::@64cfaecabb7fc13a21cc"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "Zycore::@2cc00bf536c511963352"
+		}
+	],
+	"id" : "PolyHook_2::@36f627e1c78071c147ef",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/install/x64-Debug"
+		}
+	},
+	"name" : "PolyHook_2",
+	"nameOnDisk" : "PolyHook_2.lib",
+	"paths" : 
+	{
+		"build" : "_deps/plh-build",
+		"source" : "out/build/x64-Debug/_deps/plh-src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 21,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/plh-src/sources/MemProtector.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 21,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/plh-src/sources/MemAccessor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 21,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/plh-src/sources/TestEffectTracker.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 21,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/plh-src/sources/StackCanary.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 21,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/plh-src/sources/FBAllocator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 21,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/plh-src/sources/RangeAllocator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 21,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/plh-src/sources/ErrorLog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 21,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/plh-src/sources/UID.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 21,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/plh-src/sources/Misc.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 21,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/plh-src/sources/PolyHookOs.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 22,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/plh-src/sources/ZydisDisassembler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 23,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/plh-src/sources/ADetour.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 23,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/plh-src/sources/x64Detour.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 23,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/plh-src/sources/x86Detour.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/plh-src/sources/ILCallback.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/plh-src/sources/AVehHook.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/plh-src/sources/BreakPointHook.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/plh-src/sources/HWBreakPointHook.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 26,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/plh-src/sources/EatHook.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 26,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/plh-src/sources/IatHook.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/plh-src/sources/VTableSwapHook.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/plh-src/sources/VFuncSwapHook.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

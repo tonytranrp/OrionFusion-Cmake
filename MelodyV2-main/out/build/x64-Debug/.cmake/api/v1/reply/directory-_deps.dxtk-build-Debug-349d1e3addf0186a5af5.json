@@ -1,0 +1,156 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"out/build/x64-Debug/_deps/dxtk-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 304,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 314,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 319,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 322,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 347,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 492,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/DirectXTK.lib"
+			],
+			"targetId" : "DirectXTK::@ec7fa43d7942f954724a",
+			"targetIndex" : 10,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "share/directxtk",
+			"exportName" : "DirectXTK-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "DirectXTK::@ec7fa43d7942f954724a",
+					"index" : 10
+				}
+			],
+			"paths" : 
+			[
+				"_deps/dxtk-build/CMakeFiles/Export/a11a99d19d8d3c8432b0fa94ef825414/DirectXTK-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/directxtk",
+			"paths" : 
+			[
+				"out/build/x64-Debug/_deps/dxtk-src/Inc/BufferHelpers.h",
+				"out/build/x64-Debug/_deps/dxtk-src/Inc/CommonStates.h",
+				"out/build/x64-Debug/_deps/dxtk-src/Inc/DDSTextureLoader.h",
+				"out/build/x64-Debug/_deps/dxtk-src/Inc/DirectXHelpers.h",
+				"out/build/x64-Debug/_deps/dxtk-src/Inc/Effects.h",
+				"out/build/x64-Debug/_deps/dxtk-src/Inc/GeometricPrimitive.h",
+				"out/build/x64-Debug/_deps/dxtk-src/Inc/GraphicsMemory.h",
+				"out/build/x64-Debug/_deps/dxtk-src/Inc/Model.h",
+				"out/build/x64-Debug/_deps/dxtk-src/Inc/PostProcess.h",
+				"out/build/x64-Debug/_deps/dxtk-src/Inc/PrimitiveBatch.h",
+				"out/build/x64-Debug/_deps/dxtk-src/Inc/ScreenGrab.h",
+				"out/build/x64-Debug/_deps/dxtk-src/Inc/SpriteBatch.h",
+				"out/build/x64-Debug/_deps/dxtk-src/Inc/SpriteFont.h",
+				"out/build/x64-Debug/_deps/dxtk-src/Inc/VertexTypes.h",
+				"out/build/x64-Debug/_deps/dxtk-src/Inc/WICTextureLoader.h",
+				"out/build/x64-Debug/_deps/dxtk-src/Inc/GamePad.h",
+				"out/build/x64-Debug/_deps/dxtk-src/Inc/Keyboard.h",
+				"out/build/x64-Debug/_deps/dxtk-src/Inc/Mouse.h",
+				"out/build/x64-Debug/_deps/dxtk-src/Inc/SimpleMath.h",
+				"out/build/x64-Debug/_deps/dxtk-src/Inc/SimpleMath.inl",
+				"out/build/x64-Debug/_deps/dxtk-src/Inc/Audio.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "share/directxtk",
+			"paths" : 
+			[
+				"out/build/x64-Debug/_deps/dxtk-build/directxtk-config.cmake",
+				"out/build/x64-Debug/_deps/dxtk-build/directxtk-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"out/build/x64-Debug/_deps/dxtk-build/DirectXTK.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/xwbtool.exe"
+			],
+			"targetId" : "xwbtool::@ec7fa43d7942f954724a",
+			"targetIndex" : 41,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/dxtk-build",
+		"source" : "out/build/x64-Debug/_deps/dxtk-src"
+	}
+}

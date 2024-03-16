@@ -1,7 +1,7 @@
 #pragma once
 #include "../../Utils/MemoryUtils.h"
 #include "MaterialPtr.h"
-
+#include "../../Utils/Math.h"
 class ScreenContext;
 
 enum class VertextFormat {

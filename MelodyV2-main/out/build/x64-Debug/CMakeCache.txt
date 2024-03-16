@@ -246,7 +246,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=MELODY
+CMAKE_PROJECT_NAME:STATIC=MelodyV2
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=1.0
@@ -459,10 +459,6 @@ FETCHCONTENT_SOURCE_DIR_LIBHAT:PATH=
 FETCHCONTENT_SOURCE_DIR_MENUM:PATH=
 
 //When not empty, overrides where to find pre-populated content
-// for mh
-FETCHCONTENT_SOURCE_DIR_MH:PATH=
-
-//When not empty, overrides where to find pre-populated content
 // for minhook
 FETCHCONTENT_SOURCE_DIR_MINHOOK:PATH=
 
@@ -507,9 +503,6 @@ FETCHCONTENT_UPDATES_DISCONNECTED_LIBHAT:BOOL=OFF
 
 //Enables UPDATE_DISCONNECTED behavior just for population of menum
 FETCHCONTENT_UPDATES_DISCONNECTED_MENUM:BOOL=OFF
-
-//Enables UPDATE_DISCONNECTED behavior just for population of mh
-FETCHCONTENT_UPDATES_DISCONNECTED_MH:BOOL=OFF
 
 //Enables UPDATE_DISCONNECTED behavior just for population of minhook
 FETCHCONTENT_UPDATES_DISCONNECTED_MINHOOK:BOOL=OFF
@@ -642,6 +635,15 @@ MEMORYCHECK_COMMAND:FILEPATH=MEMORYCHECK_COMMAND-NOTFOUND
 
 //File that contains suppressions for the memory checker
 MEMORYCHECK_SUPPRESSIONS_FILE:FILEPATH=
+
+//Value Computed by CMake
+MelodyV2_BINARY_DIR:STATIC=C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug
+
+//Value Computed by CMake
+MelodyV2_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+MelodyV2_SOURCE_DIR:STATIC=C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main
 
 //Use legacy wide-character as unsigned short
 NO_WCHAR_T:BOOL=OFF
@@ -972,7 +974,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=47
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=51
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib
