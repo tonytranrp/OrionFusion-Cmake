@@ -1,0 +1,8 @@
+target_sources(MelodyV2 PRIVATE
+	"Anticrystal.cpp"
+	"Disabler.cpp"
+	"NoPacket.cpp"
+	"Timer.cpp"
+	"HUD.cpp"
+	"Notifications.cpp"
+)

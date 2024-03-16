@@ -1,0 +1,8 @@
+target_sources(MelodyV2 PRIVATE
+	"GameData.cpp"
+	"MCTextFormat.cpp"
+	"Signatures.cpp"
+)
+
+add_subdirectory(Classes)
+add_subdirectory(Components)

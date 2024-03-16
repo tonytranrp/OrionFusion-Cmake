@@ -1,0 +1,5 @@
+target_sources(MelodyV2 PRIVATE
+	"ModuleManager.cpp"
+)
+
+add_subdirectory(Modules)

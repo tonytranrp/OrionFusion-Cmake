@@ -1,0 +1,8 @@
+target_sources(MelodyV2 PRIVATE
+	"Client.cpp"
+)
+
+add_subdirectory(CommandManager)
+add_subdirectory(ConfigManager)
+add_subdirectory(HookManager)
+add_subdirectory(ModuleManager)

@@ -1,0 +1,5 @@
+target_sources(MelodyV2 PRIVATE
+	"CommandManager.cpp"
+)
+
+add_subdirectory(Commands)

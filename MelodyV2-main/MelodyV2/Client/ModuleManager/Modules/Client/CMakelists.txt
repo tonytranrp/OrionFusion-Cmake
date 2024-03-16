@@ -1,0 +1,8 @@
+target_sources(MelodyV2 PRIVATE
+	"ArrayList.cpp"
+	"ClickGui.cpp"
+	"Colors.cpp"
+	"CustomFont.cpp"
+	"HUD.cpp"
+	"Notifications.cpp"
+)

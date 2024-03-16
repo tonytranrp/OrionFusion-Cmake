@@ -1,0 +1,5 @@
+target_sources(MelodyV2 PRIVATE
+	"HookManager.cpp"
+)
+
+add_subdirectory(Hooks)

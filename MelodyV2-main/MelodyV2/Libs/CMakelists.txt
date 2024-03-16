@@ -1,0 +1,7 @@
+target_sources(MelodyV2 PRIVATE
+	"Json.hpp"
+)
+
+add_subdirectory(Fonts)
+add_subdirectory(ImFX)
+add_subdirectory(ImGui)

@@ -1,0 +1,6 @@
+target_sources(MelodyV2 PRIVATE
+	"AutoAnvil.cpp"
+	"Autocrystal.cpp"
+	"Killaura.cpp"
+	"Reach.cpp"
+)

@@ -1,0 +1,8 @@
+target_sources(MelodyV2 PRIVATE
+	"Mojangles.cpp"
+	"NotoSans.cpp"
+	"ProductSansLight.cpp"
+	"ProductSansRegular.cpp"
+	"TahomaRegular.cpp"
+	"Verdana.cpp"
+)

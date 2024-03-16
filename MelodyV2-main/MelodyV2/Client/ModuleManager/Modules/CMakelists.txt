@@ -1,0 +1,10 @@
+target_sources(MelodyV2 PRIVATE
+	"Module.cpp"
+)
+
+add_subdirectory(Client)
+add_subdirectory(Combat)
+add_subdirectory(Misc)
+add_subdirectory(Movement)
+add_subdirectory(Player)
+add_subdirectory(Render)
