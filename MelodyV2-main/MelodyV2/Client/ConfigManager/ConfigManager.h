@@ -1,6 +1,6 @@
 #pragma once
 #pragma comment(lib, "runtimeobject")
-#include "../../Libs/Json.hpp"
+#include <nlohmann/json.hpp>
 
 using json = nlohmann::json;
 

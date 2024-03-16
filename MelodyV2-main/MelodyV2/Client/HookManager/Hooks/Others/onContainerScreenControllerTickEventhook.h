@@ -11,15 +11,7 @@ protected:
 	using func_t = void(__fastcall*)(ContainerScreenControllerTickEvent*);
 	static inline func_t oFunc;
 
-	static void onContainerScreenControllerTickEvent_(ContainerScreenControllerTickEvent* event) {
-		
-
-		client->moduleMgr->onContainerScreenControllerTickEvent(event);
-		oFunc(event);
-	}
+	static void onContainerScreenControllerTickEvent_(ContainerScreenControllerTickEvent* event);
 public:
-	static void init() {
-		uintptr_t address = findSig(Sigs::ContainerScreenController::ContainerScreenController_tick);
-		MemoryUtils::CreateHook("onContainerScreenControllerTickEventHook", address, (void*)&onContainerScreenControllerTickEventHook::onContainerScreenControllerTickEvent_, (void*)&oFunc);
-	}
+	static void init();
 };

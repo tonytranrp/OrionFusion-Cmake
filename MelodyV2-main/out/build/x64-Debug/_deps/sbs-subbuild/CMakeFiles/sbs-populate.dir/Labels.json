@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/sbs-subbuild/CMakeFiles/sbs-populate"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/sbs-subbuild/CMakeFiles/sbs-populate.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/sbs-subbuild/CMakeFiles/sbs-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/sbs-subbuild/sbs-populate-prefix/src/sbs-populate-stamp/sbs-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/sbs-subbuild/sbs-populate-prefix/src/sbs-populate-stamp/sbs-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/sbs-subbuild/sbs-populate-prefix/src/sbs-populate-stamp/sbs-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/sbs-subbuild/sbs-populate-prefix/src/sbs-populate-stamp/sbs-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/sbs-subbuild/sbs-populate-prefix/src/sbs-populate-stamp/sbs-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/sbs-subbuild/sbs-populate-prefix/src/sbs-populate-stamp/sbs-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/sbs-subbuild/sbs-populate-prefix/src/sbs-populate-stamp/sbs-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/sbs-subbuild/sbs-populate-prefix/src/sbs-populate-stamp/sbs-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sbs-populate"
+		],
+		"name" : "sbs-populate"
+	}
+}

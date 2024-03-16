@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/dxtk-subbuild/CMakeFiles/dxtk-populate"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/dxtk-subbuild/CMakeFiles/dxtk-populate.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/dxtk-subbuild/CMakeFiles/dxtk-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/dxtk-subbuild/dxtk-populate-prefix/src/dxtk-populate-stamp/dxtk-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/dxtk-subbuild/dxtk-populate-prefix/src/dxtk-populate-stamp/dxtk-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/dxtk-subbuild/dxtk-populate-prefix/src/dxtk-populate-stamp/dxtk-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/dxtk-subbuild/dxtk-populate-prefix/src/dxtk-populate-stamp/dxtk-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/dxtk-subbuild/dxtk-populate-prefix/src/dxtk-populate-stamp/dxtk-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/dxtk-subbuild/dxtk-populate-prefix/src/dxtk-populate-stamp/dxtk-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/dxtk-subbuild/dxtk-populate-prefix/src/dxtk-populate-stamp/dxtk-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/dxtk-subbuild/dxtk-populate-prefix/src/dxtk-populate-stamp/dxtk-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dxtk-populate"
+		],
+		"name" : "dxtk-populate"
+	}
+}

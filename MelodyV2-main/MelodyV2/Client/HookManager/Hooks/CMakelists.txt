@@ -1,0 +1,9 @@
+
+add_subdirectory(Actor)
+add_subdirectory(DirectX)
+add_subdirectory(GameMode)
+add_subdirectory(Key)
+add_subdirectory(MinecraftUIRenderContext)
+add_subdirectory(Mob)
+add_subdirectory(Others)
+add_subdirectory(ScreenView)

@@ -1,0 +1,14 @@
+target_sources(MelodyV2 PRIVATE
+	"AutoEmote.cpp"
+	"CameraNoClip.cpp"
+	"ConicalHat.cpp"
+	"CustomFov.cpp"
+	"ESP.cpp"
+	"Fullbright.cpp"
+	"HurtColor.cpp"
+	"NameTags.cpp"
+	"NoHurtcam.cpp"
+	"NoRender.cpp"
+	"Tracer.cpp"
+
+)

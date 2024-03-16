@@ -3,13 +3,23 @@ include(FetchContent)
 FetchContent_Declare(
     minhook
     GIT_REPOSITORY https://github.com/TsudaKageyu/minhook.git
-    GIT_TAG 9fbd087432700d73fc571118d6a9697a36443d88
+    GIT_TAG master
 )
 FetchContent_GetProperties(minhook)
 if(NOT minhook_POPULATED)
     FetchContent_Populate(minhook)
-    set(POLYHOOK_BUILD_STATIC_RUNTIME OFF)
     add_subdirectory(${minhook_SOURCE_DIR} ${minhook_BINARY_DIR})
+endif()
+FetchContent_Declare(
+    plh
+    GIT_REPOSITORY https://github.com/stevemk14ebr/PolyHook_2_0.git
+    GIT_TAG e8d33f54f9d11943f86fc326dae31dcc8ea7c389
+)
+FetchContent_GetProperties(plh)
+if(NOT plh_POPULATED)
+    FetchContent_Populate(plh)
+    set(POLYHOOK_BUILD_STATIC_RUNTIME OFF)
+    add_subdirectory(${plh_SOURCE_DIR} ${plh_BINARY_DIR})
 endif()
 
 FetchContent_Declare(
@@ -23,6 +33,22 @@ if(NOT gsl_POPULATED)
     add_subdirectory(${gsl_SOURCE_DIR} ${gsl_BINARY_DIR})
 endif()
 
+FetchContent_Declare(
+    json
+    GIT_REPOSITORY https://github.com/nlohmann/json.git
+    GIT_TAG master
+)
+FetchContent_GetProperties(json)
+if(NOT json_POPULATED)
+    FetchContent_Populate(json)
+    add_subdirectory(${json_SOURCE_DIR} ${json_BINARY_DIR})
+endif()
+
+FetchContent_Declare(
+    entt
+    GIT_REPOSITORY https://github.com/skypjack/entt.git
+    GIT_TAG master
+)
 FetchContent_Declare(
     kiero
     GIT_REPOSITORY https://github.com/DisabledMallis/kiero.git
@@ -175,7 +201,7 @@ target_sources(MelodyV2 PRIVATE
 	"dllmain.cpp"
 )
 
-target_link_libraries(MelodyV2 PRIVATE Shared Kiero GSL minhook GLM version magic_enum DirectXTK libhat)
+target_link_libraries(MelodyV2 PUBLIC Shared Kiero GSL PolyHook_2 minhook nlohmann_json EnTT GLM version magic_enum DirectXTK libhat)
 
 #string(REPLACE "/O2" "/Od" CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE}")
 #string(REPLACE "/O2" "/Od" CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS_RELEASE}")

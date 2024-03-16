@@ -3,6 +3,4 @@ target_sources(MelodyV2 PRIVATE
 	"Disabler.cpp"
 	"NoPacket.cpp"
 	"Timer.cpp"
-	"HUD.cpp"
-	"Notifications.cpp"
 )

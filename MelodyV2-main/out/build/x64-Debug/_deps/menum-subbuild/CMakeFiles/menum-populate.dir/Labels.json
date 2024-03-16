@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/menum-subbuild/CMakeFiles/menum-populate"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/menum-subbuild/CMakeFiles/menum-populate.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/menum-subbuild/CMakeFiles/menum-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/menum-subbuild/menum-populate-prefix/src/menum-populate-stamp/menum-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/menum-subbuild/menum-populate-prefix/src/menum-populate-stamp/menum-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/menum-subbuild/menum-populate-prefix/src/menum-populate-stamp/menum-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/menum-subbuild/menum-populate-prefix/src/menum-populate-stamp/menum-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/menum-subbuild/menum-populate-prefix/src/menum-populate-stamp/menum-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/menum-subbuild/menum-populate-prefix/src/menum-populate-stamp/menum-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/menum-subbuild/menum-populate-prefix/src/menum-populate-stamp/menum-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/menum-subbuild/menum-populate-prefix/src/menum-populate-stamp/menum-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"menum-populate"
+		],
+		"name" : "menum-populate"
+	}
+}

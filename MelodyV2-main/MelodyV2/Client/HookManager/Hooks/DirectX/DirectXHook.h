@@ -1,6 +1,6 @@
 #pragma once
 #include "../../../../Libs/ImGui/imgui.h"
-#include "../../../../Libs/Kiero/kiero.h"
+#include <kiero.h>
 #include <dxgi1_4.h>
 
 class DirectXHook {

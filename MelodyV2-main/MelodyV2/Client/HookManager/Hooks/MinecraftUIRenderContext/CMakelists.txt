@@ -1,0 +1,4 @@
+target_sources(MelodyV2 PRIVATE
+	"DrawImageHook.cpp"
+	"DrawTextHook.cpp"
+)

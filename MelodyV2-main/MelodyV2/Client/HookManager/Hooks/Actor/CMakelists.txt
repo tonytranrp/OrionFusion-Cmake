@@ -1,0 +1,10 @@
+target_sources(MelodyV2 PRIVATE
+	"ActorGetBodyYawHook.cpp"
+	"ActorGetHeadRotHook.cpp"
+	"ActorIsOnFireHook.cpp"
+	"ActorLerpMotionHook.cpp"
+	"ActorNormalTickHook.cpp"
+	"ActorShouldRenderHook.cpp"
+	"ActorSwingHook.cpp"
+
+)

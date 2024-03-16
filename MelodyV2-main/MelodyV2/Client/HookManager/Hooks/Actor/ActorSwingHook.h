@@ -9,11 +9,7 @@ protected:
 	using func_t = void(__fastcall*)(Actor*);
 	static inline func_t func;
 
-	static void Actor_Swing(Actor* _this) {
-		func(_this);
-	}
+	static void Actor_Swing(Actor* _this);
 public:
-	static void init(uintptr_t address) {
-		MemoryUtils::CreateHook("Actor_swingHook", address, (void*)&ActorSwingHook::Actor_Swing, (void*)&func);
-	}
+	static void init(uintptr_t address);
 };

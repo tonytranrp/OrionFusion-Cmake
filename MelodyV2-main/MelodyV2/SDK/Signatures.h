@@ -1,6 +1,6 @@
 #pragma once
-#include "../Libs/Libhat/libhat.hpp"
-#include "../Libs/Libhat/libhat/Process.hpp"
+#include <libhat.hpp>
+#include <libhat/Process.hpp>
 
 #define DEFINE(name, str) const hat::signature_view name = ([]() {  \
     static constexpr auto sig = hat::compile_signature<str>();      \

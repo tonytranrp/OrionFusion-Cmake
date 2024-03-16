@@ -1,0 +1,14 @@
+target_sources(MelodyV2 PRIVATE
+	"CauseHurtHook.cpp"
+	"FontDrawTransformedHook.cpp"
+	"GetCameraModeHook.cpp"
+	"GetGammaHook.cpp"
+	"GetFovHook.cpp"
+	"HIDControllerHook.cpp"
+	"HurtColorHook.cpp"
+	"ItemUseSlowdownHook.cpp"
+	"onContainerScreenControllerTickEventhook.cpp"
+	"RenderLevelHook.cpp"
+	"SendPacketHook.cpp"
+	"ServerTickBlockBreakingHook.cpp"
+)

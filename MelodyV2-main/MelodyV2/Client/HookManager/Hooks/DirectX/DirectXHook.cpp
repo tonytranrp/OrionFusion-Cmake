@@ -10,14 +10,9 @@
 #include "../../../../Libs/ImGui/imgui_impl_dx12.h"
 #include "../../../../Libs/ImGui/imgui_impl_win32.h"
 #include "../../../../Libs/ImFX/imfx.h"
-#include "../../../../Libs/Kiero/kiero.h"
+#include <kiero.h>
 
-#include "../../../../Libs/Fonts/Mojangles.h"
-#include "../../../../Libs/Fonts/ProductSansRegular.h"
-#include "../../../../Libs/Fonts/ProductSansLight.h"
-//#include "../../../../Libs/Fonts/TahomaRegular.h"
-//#include "../../../../Libs/Fonts/Verdana.h"
-#include "../../../../Libs/Fonts/NotoSans.h"
+#include "../../../../Libs/Fonts/fonts.h"
 
 #include "../../../../SDK/GameData.h"
 #include "../../../Client.h"

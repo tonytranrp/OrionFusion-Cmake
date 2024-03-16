@@ -9,7 +9,7 @@ public:
 	float LpDameTake;
 	Actor* targetActor;
 protected:
-	float computeExplosionDamage(const Vec3<float>& crystalPos, Actor* target) {
+	inline float computeExplosionDamage(const Vec3<float>& crystalPos, Actor* target) {
 		constexpr float explosionRadius = 12.f;
 		constexpr float maxDistPercent = 1.f;
 		auto pos = target->getHumanPos();
@@ -35,9 +35,10 @@ protected:
 		constexpr float epfFactor = 0.75f;
 		constexpr float maxEpfCap = 20.f;
 		damage -= damage * armorPoints * armorReductionFactor;
-		damage -= damage * std::min(ceilf(std::min(epf, maxEpf) * epfFactor), maxEpfCap) * armorReductionFactor;
-		return std::max(0.f, damage);
+		damage -= damage * (ceilf((epf < maxEpf ? epf : maxEpf) * epfFactor) < maxEpfCap ? ceilf((epf < maxEpf ? epf : maxEpf) * epfFactor) : maxEpfCap) * armorReductionFactor;
+		return (damage > 0.f ? damage : 0.f);
 	}
+
 };
 class CrystalPlacement : public CrystalStruct {
 public:

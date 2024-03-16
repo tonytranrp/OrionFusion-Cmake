@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/kiero-subbuild/CMakeFiles/kiero-populate"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/kiero-subbuild/CMakeFiles/kiero-populate.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/kiero-subbuild/CMakeFiles/kiero-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/kiero-subbuild/kiero-populate-prefix/src/kiero-populate-stamp/kiero-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/kiero-subbuild/kiero-populate-prefix/src/kiero-populate-stamp/kiero-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/kiero-subbuild/kiero-populate-prefix/src/kiero-populate-stamp/kiero-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/kiero-subbuild/kiero-populate-prefix/src/kiero-populate-stamp/kiero-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/kiero-subbuild/kiero-populate-prefix/src/kiero-populate-stamp/kiero-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/kiero-subbuild/kiero-populate-prefix/src/kiero-populate-stamp/kiero-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/kiero-subbuild/kiero-populate-prefix/src/kiero-populate-stamp/kiero-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/kiero-subbuild/kiero-populate-prefix/src/kiero-populate-stamp/kiero-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"kiero-populate"
+		],
+		"name" : "kiero-populate"
+	}
+}

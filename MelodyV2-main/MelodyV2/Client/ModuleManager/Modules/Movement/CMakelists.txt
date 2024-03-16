@@ -1,0 +1,8 @@
+target_sources(MelodyV2 PRIVATE
+	"AutoSprint.cpp"
+	"Clip.cpp"
+	"ElytraFly.cpp"
+	"Fly.cpp"
+	"Phase.cpp"
+	"Velocity.cpp"
+)

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "MelodyV2/Client/HookManager/Hooks/DirectX",
+		"source" : "MelodyV2/Client/HookManager/Hooks/DirectX"
+	}
+}

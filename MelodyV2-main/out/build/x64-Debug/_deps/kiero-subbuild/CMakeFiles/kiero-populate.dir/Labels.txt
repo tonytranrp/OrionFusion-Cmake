@@ -1,0 +1,14 @@
+# Target labels
+ kiero-populate
+# Source files and their labels
+C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/kiero-subbuild/CMakeFiles/kiero-populate
+C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/kiero-subbuild/CMakeFiles/kiero-populate.rule
+C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/kiero-subbuild/CMakeFiles/kiero-populate-complete.rule
+C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/kiero-subbuild/kiero-populate-prefix/src/kiero-populate-stamp/kiero-populate-build.rule
+C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/kiero-subbuild/kiero-populate-prefix/src/kiero-populate-stamp/kiero-populate-configure.rule
+C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/kiero-subbuild/kiero-populate-prefix/src/kiero-populate-stamp/kiero-populate-download.rule
+C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/kiero-subbuild/kiero-populate-prefix/src/kiero-populate-stamp/kiero-populate-install.rule
+C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/kiero-subbuild/kiero-populate-prefix/src/kiero-populate-stamp/kiero-populate-mkdir.rule
+C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/kiero-subbuild/kiero-populate-prefix/src/kiero-populate-stamp/kiero-populate-patch.rule
+C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/kiero-subbuild/kiero-populate-prefix/src/kiero-populate-stamp/kiero-populate-test.rule
+C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/kiero-subbuild/kiero-populate-prefix/src/kiero-populate-stamp/kiero-populate-update.rule

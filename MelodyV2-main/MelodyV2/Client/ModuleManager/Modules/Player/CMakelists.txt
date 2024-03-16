@@ -1,0 +1,12 @@
+target_sources(MelodyV2 PRIVATE
+	"AntiAnvil.cpp"
+	"AutoEat.cpp"
+	"AutoOffhand.cpp"
+	"BlockReach.cpp"
+	"ChestStealler.cpp"
+	"FastEat.cpp"
+	"PacketMine.cpp"
+	"Surround.cpp"
+	"Swing.cpp"
+
+)

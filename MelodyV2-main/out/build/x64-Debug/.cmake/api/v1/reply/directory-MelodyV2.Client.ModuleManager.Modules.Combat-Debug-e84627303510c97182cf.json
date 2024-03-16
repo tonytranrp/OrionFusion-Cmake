@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "MelodyV2/Client/ModuleManager/Modules/Combat",
+		"source" : "MelodyV2/Client/ModuleManager/Modules/Combat"
+	}
+}

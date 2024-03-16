@@ -280,16 +280,22 @@ struct glmatrixf {
 		return p.x * v[2] + p.y * v[6] + p.z * v[10] + v[14];
 	}
 };
-
+#include <algorithm>
 class Math {
 public:
 	inline static float lerp(float endPoint, float current, float speed) {
-		if (speed < 0.0) speed = 0.0;
-		else if (speed > 1.0) speed = 1.0;
+		if (speed < 0.0f)
+			speed = 0.0f;
+		else if (speed > 1.0f)
+			speed = 1.0f;
 
-		float dif = std::max(endPoint, current) - std::min(endPoint, current);
+		float minVal = (endPoint < current) ? endPoint : current;
+		float maxVal = (endPoint > current) ? endPoint : current;
+
+		float dif = maxVal - minVal;
 		float factor = dif * speed;
-		return current + (endPoint > current ? factor : -factor);
+
+		return current + ((endPoint > current) ? factor : -factor);
 	}
 	inline static float calculateDistance(const Vec3<float>& vec) {
 		return std::sqrt(vec.x * vec.x + vec.y * vec.y + vec.z * vec.z);

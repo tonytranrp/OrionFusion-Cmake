@@ -1,0 +1,14 @@
+# Target labels
+ sbs-populate
+# Source files and their labels
+C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/sbs-subbuild/CMakeFiles/sbs-populate
+C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/sbs-subbuild/CMakeFiles/sbs-populate.rule
+C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/sbs-subbuild/CMakeFiles/sbs-populate-complete.rule
+C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/sbs-subbuild/sbs-populate-prefix/src/sbs-populate-stamp/sbs-populate-build.rule
+C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/sbs-subbuild/sbs-populate-prefix/src/sbs-populate-stamp/sbs-populate-configure.rule
+C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/sbs-subbuild/sbs-populate-prefix/src/sbs-populate-stamp/sbs-populate-download.rule
+C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/sbs-subbuild/sbs-populate-prefix/src/sbs-populate-stamp/sbs-populate-install.rule
+C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/sbs-subbuild/sbs-populate-prefix/src/sbs-populate-stamp/sbs-populate-mkdir.rule
+C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/sbs-subbuild/sbs-populate-prefix/src/sbs-populate-stamp/sbs-populate-patch.rule
+C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/sbs-subbuild/sbs-populate-prefix/src/sbs-populate-stamp/sbs-populate-test.rule
+C:/Users/tony/Downloads/OrionFusion-Cmake/MelodyV2-main/out/build/x64-Debug/_deps/sbs-subbuild/sbs-populate-prefix/src/sbs-populate-stamp/sbs-populate-update.rule

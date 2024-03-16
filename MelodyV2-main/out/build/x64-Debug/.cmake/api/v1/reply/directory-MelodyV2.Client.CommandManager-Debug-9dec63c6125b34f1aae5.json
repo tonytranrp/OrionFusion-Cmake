@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "MelodyV2/Client/CommandManager",
+		"source" : "MelodyV2/Client/CommandManager"
+	}
+}

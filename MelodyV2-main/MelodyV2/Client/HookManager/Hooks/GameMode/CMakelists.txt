@@ -1,0 +1,5 @@
+target_sources(MelodyV2 PRIVATE
+	"GameModeGetPickRangeHook.cpp"
+	"GameModeStartDestroyBlockHook.cpp"
+	"GameModeStopDestroyBlockHook.cpp"
+)

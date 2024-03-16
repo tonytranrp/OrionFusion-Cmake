@@ -3,7 +3,7 @@
 #include <vector>
 #include <memory>
 #include <algorithm>
-#include "../../../Libs/Json.hpp"
+#include <nlohmann/json.hpp>
 #include "../../../SDK/GameData.h"
 #include "../../../SDK/Classes/ContainerScreenControllerTickEventContainerScreenControllerTickEvent.h"
 #include "../../../SDK/Classes/ContainerScreenController.h"
