@@ -3,6 +3,7 @@
 #include <vector>
 #include "Level.h"
 #include "GameMode.h"
+//#include "EnityContext.h"
 #include "Inventory.h"
 #include "Dimension.h"
 #include "MobEffectInstance.h"
@@ -17,6 +18,8 @@
 #include "../Components/StateVectorComponent.h"
 #include "../Components/ActorRotationComponent.h"
 #include "../Components/Flags/OnGroundFlag.h"
+#include "../Components/Flags/Flagcominemts.h"
+#include "../Components/Flags/jupmfromgroungflas.h"
 
 class HashedString;
 class EntityContext;
@@ -25,25 +28,18 @@ class ItemStack;
 enum MaterialType;
 class Player;
 
-struct EntityId {
-	uint32_t value;
-};
-
-class EntityRegistry;
-
-struct EntityContext {
-	EntityRegistry* registry;
-	EntityId id;
-};
-
 class Actor {
 public:
-	BUILD_ACCESS(this, EntityContext, entityContext, 0x8);
+	//BUILD_ACCESS(this, EntityContext, entityContext, 0x8);
 	BUILD_ACCESS(this, int16_t, hurtTime, 0x22C);
 	BUILD_ACCESS(this, std::shared_ptr<Dimension>, dimension, 0x278);
 	BUILD_ACCESS(this, StateVectorComponent*, stateVectorComponent, 0x2C8);
 	BUILD_ACCESS(this, ActorRotationComponent*, rotationComponent, 0x2D8); // 48 8B 83 ? ? ? ? 0F 28 C7
 	BUILD_ACCESS(this, AABBShapeComponent*, aabbComponent, 0x2D0);
+	/*void jumpFromGround(void* legacyBlocksource = nullptr)
+	{
+		entityContext.getOrAddComponent<FlagComponent<JumpFromGroundRequestFlag>>();
+	}*/
 protected:
 	template<typename T> // ncc
 	T* getComponent(uintptr_t funcAddr) {
@@ -55,7 +51,7 @@ protected:
 	}
 public:
 
-	/*AABB makeAABB(const Vec3<int>* pos) {
+	AABB makeAABB(const Vec3<int>* pos) {
 		AABB aabb;
 		BlockSource* blockSource = this->dimension->blockSource;
 		Block* block = blockSource->getBlock(*pos);
@@ -63,7 +59,7 @@ public:
 
 		blockLegacy->getCollisionShape(&aabb, block, blockSource, pos);
 		return aabb;
-	}*/
+	}
 
 	SimpleContainer* getArmorContainer() {
 		return (SimpleContainer*)*((uintptr_t*)this + 0x8A);
@@ -116,7 +112,7 @@ public:
 	AABB* getAABB() {
 		return (AABB*)*((uintptr_t*)this + 0x5A);
 	}
-
+	
 	bool isOnGround() {
 		return getOnGroundFlagComponent();
 	}
@@ -159,6 +155,10 @@ public:
 		if (component == nullptr) return 0.f;
 		return *(float*)component;
 	}
+	/*void jumpFromGround(void* legacyBlocksource = nullptr)
+	{
+		entityContext.getOrAddComponent<FlagComponent<JumpFromGroundRequestFlag>>();
+	}*/
 	Vec2<float> getInterpolatedRotation(float partialTicks) {
 		return getRotationPrev()->mul((1.0f - partialTicks)).add(getRotation()->mul(partialTicks));
 	}

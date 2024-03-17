@@ -212,7 +212,7 @@ target_sources(MelodyV2 PRIVATE
  )
 
 # Add your dependencies
-target_link_libraries(MelodyV2 PRIVATE Shared Kiero GSL PolyHook_2 glm minhook nlohmann_json EnTT glm version magic_enum DirectXTK libhat)
+target_link_libraries(MelodyV2 PUBLIC Shared Kiero GSL PolyHook_2 glm minhook nlohmann_json EnTT glm version magic_enum DirectXTK libhat)
 
 #string(REPLACE "/O2" "/Od" CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE}")
 #string(REPLACE "/O2" "/Od" CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS_RELEASE}")

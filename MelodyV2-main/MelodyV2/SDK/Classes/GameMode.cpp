@@ -6,7 +6,9 @@
 #include "ActorUniqueID.h"
 
 #include "Block.h"
-
+#include "Entityid.h"
+#include "EnityContext.h"
+#include "Enityregistry.h"
 #include "BlockLegacy.h"
 
 

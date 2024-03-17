@@ -1,5 +1,6 @@
 #pragma once
 #include "Block.h"
+#include "Entityid.h"
 #include "../../Utils/MemoryUtils.h"
 #include "../../Utils/Math.h"
 class BlockActor;
@@ -39,7 +40,7 @@ public:
 	virtual void addListener(__int64&);
 	virtual void removeListener(__int64&);
 	virtual void fetchEntities(Actor const*, AABB const&, bool, bool);
-	virtual void fetchEntities(struct EntityId, AABB const&, Actor const*, __int64);
+	virtual void fetchEntities(EntityId, AABB const&, Actor const*, __int64);
 	virtual void setBlock(Vec3<int> const&, Block const&, int, __int64 const*, Actor*);
 	virtual int16_t getMaxHeight(void);
 	virtual int16_t getMinHeight(void);

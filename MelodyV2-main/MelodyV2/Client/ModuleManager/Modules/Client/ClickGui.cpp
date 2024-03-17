@@ -11,7 +11,7 @@ void getModuleListByCategory(Category category, std::vector<Module*>& modList) {
 	}
 }
 
-ClickGui::ClickGui() : Module("ClickGui", "A GUI use to enable/disable modules.", Category::CLIENT, VK_INSERT) {
+ClickGui::ClickGui() : Module("ClickGui", "A GUI use to enable/disable modules.", Category::CLIENT, 'p') {
 	addEnumSetting("Mode", "NULL", { "New", "Old" }, &Mode);
 	addSlider<float>("Blur", "NULL", ValueType::FLOAT_T, &blurStrength, 0.f, 20.f);
 	addBoolCheck("Tooltips", "Show modules/settings tooltips.", &tooltips);
